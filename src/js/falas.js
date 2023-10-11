@@ -1,7 +1,7 @@
 let playButton = document.getElementById("toninho");
 let audioStart = document.getElementById("audioStart");
 
-function msuciOn() {
+function musicOn() {
   playButton.addEventListener("click", () => {
     if (audioStart.paused) {
       audioStart.play();
@@ -10,4 +10,4 @@ function msuciOn() {
     }
   });
 }
-msuciOn()
+musicOn()
